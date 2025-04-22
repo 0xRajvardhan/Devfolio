@@ -2,7 +2,7 @@
 
 ## Project info
 
-**Deployed link**: 
+**Deployed link**: https://rajvardhan.vercel.app/
 
 ## What technologies are used for this project?
 
