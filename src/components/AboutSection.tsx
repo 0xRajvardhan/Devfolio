@@ -21,9 +21,9 @@ export const AboutSection = () => {
           I build fast, scalable applications using modern web stacks and the Solana blockchain. My focus is on clean architecture, performance, and shipping what’s products in both Web2 and Web3.
           </p>
         </div>
-        <div className="bg-accent/10 pl-6 rounded-lg space-y-4">
+        <div className="bg-accent/10 md:pl-6 rounded-lg space-y-4">
           <h3 className="font-semibold text-xl">Skills</h3>
-          <div className="grid grid-cols-3 gap-y-2 gap-x-7">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-y-6 md:gap-y-2 gap-x-7">
             <span className="text-muted-foreground">Next.js</span>
             <span className="text-muted-foreground">React</span>
             <span className="text-muted-foreground">TypeScript</span>

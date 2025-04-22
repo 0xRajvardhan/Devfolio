@@ -1,6 +1,16 @@
-
 import { motion } from "framer-motion";
-import { ArrowDown } from "lucide-react";
+import { ArrowDown, Github } from "lucide-react";
+
+const XIcon = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 1200 1227"
+    fill="currentColor"
+    className="w-5 h-4"
+  >
+    <path d="M1036 0H1227L756 539L1227 1227H852L549 801L197 1227H0L492 648L49 0H435L708 387L1036 0ZM969 1122H1073L299 104H191L969 1122Z" />
+  </svg>
+);
 
 export const HeroSection = () => {
   return (
@@ -22,10 +32,32 @@ export const HeroSection = () => {
         initial={{ y: 20 }}
         animate={{ y: 0 }}
         transition={{ delay: 0.4 }}
-        className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-12"
+        className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-6"
       >
         A passionate developer transforming concepts into code.
       </motion.p>
+
+      <div className="flex gap-4 mb-12">
+        <a 
+          href="https://github.com/0xRajvardhan" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          aria-label="GitHub"
+          className=" rounded-full p-3 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+        >
+          <Github className="w-5 h-5" />
+        </a>
+        <a 
+          href="https://twitter.com/rajvardhansd" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          aria-label="X"
+          className="rounded-full p-3 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+        >
+          <XIcon />
+        </a>
+      </div>
+
       <motion.div
         initial={{ y: 20 }}
         animate={{ y: 0 }}
