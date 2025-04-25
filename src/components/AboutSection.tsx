@@ -18,7 +18,7 @@ export const AboutSection = () => {
           From curiosity to code — I'm a web developer driven by a love for clean design and seamless user experiences. I turn ideas into elegant, functional websites and applications.
           </p>
           <p className="text-muted-foreground">
-          I build fast, scalable applications using modern web stacks and the Solana blockchain. My focus is on clean architecture, performance, and shipping what’s products in both Web2 and Web3.
+          I build fast, scalable applications using modern web stacks and the Solana blockchain. My focus is on clean architecture, performance, and shipping products in both Web2 and Web3.
           </p>
         </div>
         <div className="bg-accent/10 md:pl-6 rounded-lg space-y-4">
