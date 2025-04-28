@@ -37,13 +37,14 @@ export const HeroSection = () => {
         A passionate developer transforming concepts into code.
       </motion.p>
 
-      <div className="flex gap-4 mb-12">
+      {/* Social Links */}
+      <div className="flex gap-4 mb-4">
         <a 
           href="https://github.com/0xRajvardhan" 
           target="_blank" 
           rel="noopener noreferrer"
           aria-label="GitHub"
-          className=" rounded-full p-3 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+          className="rounded-full p-3 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
         >
           <Github className="w-5 h-5" />
         </a>
@@ -58,6 +59,16 @@ export const HeroSection = () => {
         </a>
       </div>
 
+      {/* Download CV Button */}
+      <a 
+        href="/rajvardhan_singh.pdf"
+        download
+        className="border border-gray-300 dark:border-gray-700 rounded-full px-6 py-2 text-sm font-medium hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors mb-12"
+      >
+        Download CV
+      </a>
+
+      {/* Down Arrow Animation */}
       <motion.div
         initial={{ y: 20 }}
         animate={{ y: 0 }}
