@@ -7,7 +7,7 @@ const projects = [
     description:
       "VaultView empowers creators to share premium content exclusively with holders of specific NFTs or SPL tokens. It bridges the gap between Web3 ownership and creator monetization — no middlemen, no subscriptions, just access through ownership.",
     deployment: "https://vault-view.vercel.app/",
-    code: "https://github.com/0xRajvardhan/Vault-View",
+    code: "https://github.com/0xRajvardhan/VaultView",
     tags: [
       "Next.js",
       "TypeScript",
