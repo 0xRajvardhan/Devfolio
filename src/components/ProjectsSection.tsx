@@ -67,7 +67,7 @@ const projects = [
   {
     title: "DaCircle",
     description:
-      "Built a full-stack website for the Da Circle developer community — captured the vibe coded it entirely under 30 minutes.",
+      "Built a full-stack website for the Da Circle developer community — vibe coded it entirely under 30 minutes.",
     deployment:
       "https://www.loom.com/share/d9c91a0ac62844a8b24255bca663b846?sid=261b2f8d-563b-4830-8b0e-7e5ab08ceb59",
     code: "https://github.com/0xRajvardhan/DaCircle",
